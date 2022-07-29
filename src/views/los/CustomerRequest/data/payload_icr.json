@@ -1,0 +1,31 @@
+{
+    "loanLimitRequestId" : "LLR",
+    "customerId":"123-112-33444",
+    "scoreAmount":80,
+    "scouring":[
+        {
+            "factorId":"bf4cba35-9af6-41b0-ac8b-8a42d37cf103",
+            "parentId":"null",
+            "scoring":4,
+            "position":{key}
+        },
+        {
+            "factorId":"a2576bf4-28ec-4d85-9d91-c7a338c6018b",
+            "parentId":""bf4cba35-9af6-41b0-ac8b-8a42d37cf103",
+            "scoring":0,
+            "position":{key}
+        },
+        {
+            "factorId":"1234",
+            "parentId":"11233",
+            "scoring":2,
+            "position":""
+        },
+        {
+            "factorId":"1234",
+            "parentId":"11233",
+            "scoring":2,
+            "position":""
+        }
+    ]
+}

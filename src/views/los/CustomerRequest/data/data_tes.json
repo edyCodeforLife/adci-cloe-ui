@@ -1,0 +1,164 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name":"Personal PT",
+            "filter":"SCF-IF",
+            "weight":0.8,
+            "parentId":"null",
+            "posisiton": 1,
+            "subFactor": [
+                {
+                    "name":"Sub 1",
+                    "filter":"SCF-IF",
+                    "weight":0.1,
+                    "parentId":1,
+                    "posisiton": 1,
+                    "subFactor":[],
+                    "options": [
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":1
+                        },
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":2
+                        }, 
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":3
+                        }
+                    ]
+                },
+                {
+                    "name":"Sub 2",
+                    "filter":"SCF-IF",
+                    "weight":0.1,
+                    "parentId":1,
+                    "posisiton": 1,
+                    "subFactor":[],
+                    "options": [
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":1
+                        },
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":2
+                        }, 
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":"Business operations",
+            "filter":"SCF-IF",
+            "weight":0.8,
+            "parentId":"null",
+            "posisiton": 1,
+            "subFactor": [
+                {
+                    "name":"Business Category",
+                    "filter":"SCF-IF",
+                    "weight":0.1,
+                    "parentId":1,
+                    "posisiton": 1,
+                    "subFactor":[],
+                    "options": [
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":1
+                        },
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":2
+                        }, 
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":3
+                        }
+                    ]
+                },
+                {
+                    "name":"Ownership of place of business",
+                    "filter":"SCF-IF",
+                    "weight":0.1,
+                    "parentId":1,
+                    "posisiton": 1,
+                    "subFactor":[],
+                    "options": [
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":1
+                        },
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":2
+                        }, 
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":3
+                        }
+                    ]
+                },
+                {
+                    "name":"Dependency risk",
+                    "filter":"SCF-IF",
+                    "weight":0.1,
+                    "parentId":1,
+                    "posisiton": 1,
+                    "subFactor":[],
+                    "options": [
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":1
+                        },
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":2
+                        }, 
+                        {
+                            "id":1,
+                            "name":"ddd",
+                            "value":0.2,
+                            "position":3
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
